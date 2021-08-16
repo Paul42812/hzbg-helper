@@ -1,0 +1,49 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    background: lightsteelblue;
+}
+
+#map {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50%;
+}
+
+.ol-zoom {
+    visibility: hidden;
+}
+
+#status {
+    z-index: 1000;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    color: white;
+    size: 4em;
+}
+
+#frame {
+    position: absolute;
+    right: 0px;
+    width: 50%;
+}
+
+#name {
+    font-size: x-large;
+    z-index: 1000;
+    position: absolute;
+    color: black;
+    right: 20px;
+    bottom: 0px;
+}
+
+#proq {
+    font-size: x-large;
+    z-index: 1000;
+    position: absolute;
+    color: black;
+    right: 20px;
+    bottom: 30px;
+}
